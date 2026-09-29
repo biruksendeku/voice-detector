@@ -4,9 +4,15 @@
   "description": "",
   "license": "MIT",
   "author": "DevYay",
-  "type": "commonjs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "assemblyai": "^4.41.5",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1"
   }
 }
